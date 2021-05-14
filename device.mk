@@ -494,6 +494,10 @@ PRODUCT_PACKAGES += \
     fstab.ramdisk \
     ueventd.qcom.rc
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl-xiaomi \
