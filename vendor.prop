@@ -341,6 +341,9 @@ sys.vendor.shutdown.waittime=500
 # TouchFeature
 ro.vendor.touchfeature.type=59
 
+# Telephony
+telephony.active_modems.max_count=2
+
 # Subsystem silent restart
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
