@@ -74,6 +74,7 @@ BOARD_KERNEL_CMDLINE := androidboot.usbcontroller=a600000.dwc3 swiotlb=2048
 BOARD_KERNEL_CMDLINE := loop.max_part=7 cgroup.memory=nokmem,nosocket reboot=panic_warm
 BOARD_KERNEL_CMDLINE += androidboot.fstab_suffix=qcom
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
+BOARD_KERNEL_CMDLINE += kpti=off
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
