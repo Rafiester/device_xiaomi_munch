@@ -90,6 +90,7 @@ TARGET_KERNEL_CONFIG := munch_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/munch
 
 # Partitions A/B
+BOARD_USES_SYSTEM_OTHER_ODEX := true
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 AB_OTA_UPDATER := true
 
