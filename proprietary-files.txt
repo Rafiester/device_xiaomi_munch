@@ -118,6 +118,8 @@ vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
 vendor/lib/libssrec.so
 vendor/lib/libsurround_3mic_proc.so
+vendor/lib/libdrc.so
+vendor/lib/libsurround_3mic_proc.so
 
 # Bluetooth (A2DP)
 vendor/lib/btaudio_offload_if.so
