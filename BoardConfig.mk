@@ -91,6 +91,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := munch_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/munch
+TARGET_KERNEL_ADDITIONAL_FLAGS := \
+    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
 # Partitions A/B
 BOARD_USES_SYSTEM_OTHER_ODEX := true
