@@ -9,6 +9,7 @@ suspend.max_sleep_time_millis=40000
 
 # Camera
 camera.disable_zsl_mode=true
+log.tag.CHIUSECASE=ERROR
 
 # Display
 debug.gralloc.gfx_ubwc_disable=0
