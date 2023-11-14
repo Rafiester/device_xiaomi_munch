@@ -259,6 +259,7 @@ endif
 
 # Media
 PRODUCT_PACKAGES += \
+    android.hardware.media.omx@1.0-service \
     libavservices_minijail \
     libavservices_minijail.vendor \
     libavservices_minijail_vendor
@@ -321,7 +322,8 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libstagefright_omx.vendor
 
 # Overlays
 PRODUCT_PACKAGES += \
