@@ -403,6 +403,12 @@ VULKAN_DEQP_LEVEL := 2020-03-01
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-$(VULKAN_DEQP_LEVEL).xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
 
+# Preopt critical applications
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SettingsGoogle \
+    SystemUIGoogle \
+    GoogleDialer
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
@@ -465,7 +471,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Speed profile services and wifi-service to reduce RAM and storage
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
-
 
 # Telephony
 PRODUCT_PACKAGES += \
