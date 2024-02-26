@@ -25,5 +25,3 @@ It is also known as POCO F4 (globally) and Redmi K40S (China).
 ## Device picture
 
 ![POCO F4](https://i.imgur.com/8vGvhMe.jpeg)
-
-Copyright (C) 2022 ArrowOS.
