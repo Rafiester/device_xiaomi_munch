@@ -35,6 +35,7 @@ static const variant_info_t munch_global_info = {
     .mod_device = "munch_global",
     .model = "22021211RG",
     .build_fingerprint = FINGERPRINT_GL,
+    
     .nfc = true,
 };
 
@@ -47,6 +48,7 @@ static const variant_info_t munch_info = {
     .mod_device = "munch_global",
     .model = "22021211RC",
     .build_fingerprint = FINGERPRINT_CN,
+    
     .nfc = true,
 };
 
